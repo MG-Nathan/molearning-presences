@@ -53,29 +53,34 @@ export default {
     students: [
       {
         id: 0,
-        name: "Shannon",
-        img: require("./assets/Thalia2.jpg"),
+        name: "Marc",
+        img: require("./assets/avatar-1.png"),
         presence: "absent",
-        heureRetard: "",
       },
       {
         id: 1,
-        name: "Baka",
-        img: require("./assets/BlacklanceParagon.jpg"),
+        name: "Ahmed",
+        img: require("./assets/avatar-2.png"),
         presence: "absent",
       },
       {
         id: 2,
-        name: "Maxime",
-        img: require("./assets/seb_stasis.jpg"),
+        name: "Bob",
+        img: require("./assets/avatar-3.png"),
         presence: "absent",
       },
       {
         id: 3,
-        name: "Nathan",
-        img: require("./assets/AnsweredPrayers.jpg"),
+        name: "Jeanne",
+        img: require("./assets/avatar-4.png"),
         presence: "absent",
       },
+      // {
+      //   id: 4,
+      //   name: "Dalanda",
+      //   img: require("./assets/Everdream.jpg"),
+      //   presence: "absent",
+      // },
     ],
   }),
 };

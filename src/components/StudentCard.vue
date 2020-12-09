@@ -59,7 +59,6 @@
             readonly
             v-bind="attrs"
             v-on="on"
-            @change="saveTime"
           ></v-text-field>
         </template>
 

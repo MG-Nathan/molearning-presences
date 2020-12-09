@@ -5,17 +5,22 @@
         <StudentCard :student="student" />
       </v-col>
     </v-row>
+    <v-row>
+      <PresenceCheck />
+    </v-row>
   </v-container>
 </template>
 
 <script>
 import StudentCard from "./StudentCard.vue";
+import PresenceCheck from "./PresenceCheck.vue";
 
 export default {
   name: "Presence",
 
   components: {
     StudentCard,
+    PresenceCheck,
   },
 
   props: {
@@ -26,6 +31,8 @@ export default {
   },
 
   data: () => ({}),
+
+  computed: {},
 
   methods: {
     validate(student) {
